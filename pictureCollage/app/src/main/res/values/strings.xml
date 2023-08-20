@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Landmark Collage</string>
+    <string name="bridge">London Bridge</string>
+    <string name="pyramids">Pyramids of Giza</string>
+    <string name="liberty">Statue of Liberty</string>
+</resources>

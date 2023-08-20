@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:background="@drawable/widget_preview_background">
+
+
+    <Button
+        android:id="@+id/widget_button"
+        android:text="Open URL"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="16dp" />
+
+</LinearLayout>

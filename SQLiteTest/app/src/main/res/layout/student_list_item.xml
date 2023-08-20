@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/student_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/student_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/student_id"
+        android:layout_marginLeft="16dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/student_last_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/student_name"
+        android:layout_marginLeft="16dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/student_grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/student_last_name"
+        android:layout_marginLeft="16dp"
+        android:textSize="18sp" />
+
+</RelativeLayout>
